@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invited Guests Form</title>
+    <link rel="stylesheet" href="Invited Guests.css">
+</head>
+<body>
+    <div class="form-container">
+        <header>
+            <h1>IKAC Web Portal</h1>
+            <div class="settings-icon"></div>
+        </header>
+        <h2>Invited Guests</h2>
+        <form id="guestsForm">
+            <div class="input-group">
+                <input type="text" id="campus" placeholder="Campus">
+                <input type="text" id="department" placeholder="Department">
+            </div>
+            <div class="input-group">
+                <input type="text" id="academicYear" placeholder="Academic Year">
+                <input type="text" id="titleOfTalk" placeholder="Title Of Talk">
+            </div>
+            <!-- Additional fields... -->
+            <div class="input-group">
+                <label for="onlineMode">Was this talk broadcasted through online mode?</label>
+                <select id="onlineMode">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button type="button" onclick="exportData()">Export</button>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+    <script src="InvitedGuests.js"></script>
+</body>
+</html>

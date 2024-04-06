@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link rel="stylesheet" href="Events.css">
+</head>
+<body>
+    <div class="event-container">
+        <header>
+            <h1>IKAC Web Portal</h1>
+            <!-- Settings Icon Placeholder -->
+            <div class="settings-icon"></div>
+        </header>
+        <h2>Events Attended by Department Faculty</h2>
+        <form id="eventForm">
+            <!-- Input fields structured in pairs -->
+            <div class="input-group">
+                <input type="text" id="campus" placeholder="Campus">
+                <input type="text" id="department" placeholder="Department">
+                
+            </div>
+            <div class="input-group">
+              <input type="text" id="academicYear" placeholder="Academic Year">
+            </div>
+            <div class="input-group">
+                
+                <input type="text" id="titleOfTalk" placeholder="Title Of Talk">
+            </div>
+            <!-- ...other input groups... -->
+            
+            <div class="button-group">
+                <button type="button" onclick="exportData()">Export</button>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+    <script src="events.js"></script>
+</body>
+</html>
+

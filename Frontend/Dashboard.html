@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>IKAC Web Portal</h1>
+            <!-- Settings Icon -->
+            <div class="settings-icon"></div>
+        </header>
+        <section class="profile-card">
+            <div class="profile-image"></div>
+            <div class="profile-info">
+                <h2>Name</h2>
+                <p>Profile Details</p>
+                <p>Professor/Assistant Professor</p>
+            </div>
+        </section>
+        <div class="content">
+            <section class="events attended card">
+                <h3>Events Attended</h3>
+                <div class="button-group">
+                    <button onclick="exportData()">Export</button>
+                    <button onclick="updateData()">Update</button>
+                </div>
+            </section>
+            <!-- Repeat for other sections -->
+            <section class="faculty development card">
+              <h3>Faculty Development</h3>
+              <div class="button-group">
+                  <button onclick="AddNew()">Add New</button>
+                  <button onclick="ViewData()">View Data</button>
+                  <button onclick="GenerateReport()">Generate Report</button>
+              </div>
+          </section>
+
+          <section class="invited guests card">
+            <h3>Invited Guests</h3>
+            <div class="button-group">
+                <button onclick="exportData()">Export</button>
+                <button onclick="updateData()">Update</button>
+            </div>
+        </section>
+
+        <section class="student participation card">
+          <h3>Student Participation Card</h3>
+          <div class="button-group">
+              <button onclick="exportData()">Export</button>
+              <button onclick="updateData()">Update</button>
+          </div>
+      </section>
+
+          
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

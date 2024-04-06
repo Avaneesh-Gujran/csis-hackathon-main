@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000; /* Set background to black */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 40px 0; /* 40px padding at the top and bottom */
+  color: #fff; /* Set text color to white */
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-logo {
+  width: 150px; /* adjust as needed */
+  margin: 20px 0; /* 20px margin for equal distance */
+}
+
+header, .auth-methods, footer {
+  margin: 20px 0;
+}
+
+h1 {
+  font-weight: 600; /* Montserrat semi-bold */
+}
+
+button#googleSignIn {
+  background-color: #4285F4; /* Google button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 400; /* Montserrat regular */
+  text-transform: uppercase; /* Stylistic choice */
+}
+
+button#googleSignIn:hover {
+  background-color: #357ae8; /* Darker Google button color */
+}
+
+footer p {
+  color: #757575; /* adjust as needed */
+  font-weight: 400; /* Montserrat regular */
+}
+
+footer a {
+  color: #4285F4; /* Google button color */
+  text-decoration: none;
+  font-weight: 400; /* Montserrat regular */
+}

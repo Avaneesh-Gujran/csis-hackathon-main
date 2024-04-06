@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login Page.css">
+</head>
+<body>
+    <div class="login-container">
+        <header class="headingOfPortal">
+            <h1>IKAC Web Portal</h1>
+        </header>
+        <section class="auth-logo">
+            <img src="csislogo.png" alt="CSIS ASCII Logo">
+            <img src="bitslogo.png" alt="Institute Logo">
+        </section>
+        <section class="auth-methods">
+            <button id="googleSignIn">Sign Up With Google</button>
+        </section>
+        <footer>
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+        </footer>
+    </div>
+    <script>
+      document.getElementById('googleSignIn').addEventListener('click', function() {
+       // Integrate Google Sign-In here
+      console.log('Google Sign-In button clicked');
+    });
+    </script>
+</body>
+</html>

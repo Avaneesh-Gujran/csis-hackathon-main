@@ -1,0 +1,59 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Dark background */
+}
+
+.event-container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Light background for content */
+  border-radius: 8px;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust as needed for spacing */
+}
+
+input {
+  width: 48%; /* Adjust width for two inputs per line */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  margin-left: 10px; /* Space between buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #444; /* Dark button background */
+  color: #fff; /* Light text */
+}
+
+.button-group button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
